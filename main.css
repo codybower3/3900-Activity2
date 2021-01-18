@@ -1,0 +1,112 @@
+/*************************************
+GENERAL
+**************************************/
+
+body {
+	font-family: fantasy;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+  border-radius: 8px;
+  height: 280px;
+  width: 280px;
+}
+	
+
+
+#wrapper {
+	text-align: center;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.row li{
+	padding: 5px;
+}
+
+.column {
+  text-align: left;
+  float: left;
+  width: 50%;
+  padding: 20px;
+  
+}
+
+#col1 {
+	text-align: center;
+}
+
+#col2 {
+	text-align: center;
+}
+
+#title {
+	text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.social-icons {
+  text-align: center;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:70px;
+  height:70px;
+  margin-right: 20px;
+}
+
+.about {
+	text-align: center;
+}
+
+/*************************************
+NAVIGATION
+**************************************/
+
+#navigation {
+	text-align: center;
+	font-size: xx-large;
+}
+
+#navigation ul  {
+    list-style: none;
+	margin: 10px;
+}
+
+#navigation li {
+  display: inline-block;
+  margin: 15px;
+
+}
+
+/*************************************
+FOOTER
+**************************************/
+
+footer {
+	text-align: center;
+	background-color: blue;
+	padding: 30px;
+	font: icon;
+}
+
